@@ -426,7 +426,7 @@ function updateGraph() {
     case 4:
       setComboboxValue('select-positive-branch-direction', 'Flatwise')
       setComboboxValue('select-negative-branch-direction', 'Flatwise')
-      setComboboxValue('select-in-edge-grouping', 'None')
+      setComboboxValue('select-in-edge-grouping', 'Noned')
       allowFlatwiseEdges.checked = false
       break
   }
